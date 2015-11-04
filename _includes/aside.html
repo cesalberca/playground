@@ -1,0 +1,25 @@
+<aside id="aside">
+  <div class="aside-container">
+    <header><a href="{{ site.baseurl }}/">{{ site.title }}</a></header>
+    <section class="aside-subjects">
+      <div>
+        <h1>Tema 1</h1>
+        <ol>
+          {% for post in site.posts %}
+          <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ol>
+      </div>
+    </section>
+    <!-- End aside-subjects -->
+    <footer>
+      <p>Ejercicios para la asignatura de Lenguaje de Marcas para el ciclo superior de Desarrollo de Aplicaciones Multiplataforma</p>
+      <div class="shameless-plug">
+        <a href="http://www.cesalberca.es" target="_blank">Hecho por César Alberca</a>
+        <a href="http://www.twitter.com/cesalberca" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+      </div>
+    </footer>
+    <!-- End footer aside -->
+  </div>
+</aside>
+<!-- End aside -->

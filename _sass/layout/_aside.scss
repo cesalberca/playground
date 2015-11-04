@@ -1,0 +1,93 @@
+#aside {
+  flex: 1;
+  background-color: $main-dark;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.aside-container {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.aside-container > header {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.aside-subjects {
+  color: $main-gray;
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.aside-subjects div {
+  padding: 20px 0;
+}
+
+.aside-subjects h1 {
+  color: $main-gray;
+  font-family: $main-font-family;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.aside-subjects ol {
+  counter-reset: item;
+  margin-left: 0;
+}
+
+.aside-subjects li {
+  display: block;
+  padding: 2px 0;
+}
+
+.aside-subjects li:hover {
+  color: $link-color-strong;
+}
+
+.aside-subjects a {
+    color: white;
+    text-decoration: none;
+    transition: .25s ease;
+}
+
+.aside-subjects a:hover {
+    color: $link-color;
+}
+
+.aside-subjects li:before {
+  color: $link-color;
+  content: counters(item, ".") " ";
+  counter-increment: item;
+}
+
+.aside-subjects ol ol{
+  padding-left: 20px;
+}
+
+.aside-container footer {
+  color: $main-gray;
+  p {
+    font-size: .85rem;
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+}
+
+.shameless-plug {
+  font-size: .75rem;
+    a {
+      color: $main-gray;
+    }
+    a:hover {
+      color: $link-color;
+    }
+    i {
+      padding-left: 5px;
+    }
+}

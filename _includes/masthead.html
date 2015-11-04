@@ -1,0 +1,11 @@
+<div id="masthead">
+  <div class="masthead-container">
+    <h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
+    <div class="masthead-info">
+      <span>{{ page.date | date: "%b %-d, %Y" }}</span>
+      <span>{% if page.difficulty %} Tema {{ page.subject }} {% endif %}</span>
+      <span>{% if page.difficulty %} Nivel {{ page.difficulty }} {% endif %}</span>
+    </div>
+  </div>
+</div>
+<!-- End masthead -->

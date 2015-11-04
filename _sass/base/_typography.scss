@@ -1,0 +1,25 @@
+$main-font-family: 'Open Sans', sans-serif;
+$header-font-family: 'Montserrat', sans-serif;
+
+body {
+  background: #fafafa;
+  font-family: $main-font-family;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: $link-color;
+}
+
+a:hover {
+  color: $link-color-strong;
+}
+
+h1 {
+  font-family: $header-font-family;
+}
+
+p {
+  line-height: 26px;
+}
