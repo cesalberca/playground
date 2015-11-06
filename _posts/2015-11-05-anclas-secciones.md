@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ejercicio Anclas"
+title:  "Anclas"
 date:   2015-11-05
 categories: html tags a
 permalink: anclas-secciones

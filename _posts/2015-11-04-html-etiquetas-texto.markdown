@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Práctica Ejercicio 2"
+title:  "Etiquetas texto"
 date:   2015-11-04
 categories: html tags
 permalink: etiquetas-texto-html
