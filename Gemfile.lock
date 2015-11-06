@@ -7,6 +7,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.0.8)
+    ffi (1.9.10)
     ffi (1.9.10-x64-mingw32)
     formatador (0.2.5)
     guard (2.13.0)
@@ -67,6 +68,7 @@ GEM
     thor (0.19.1)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
@@ -74,6 +76,3 @@ DEPENDENCIES
   guard-livereload
   jekyll
   redcarpet
-
-BUNDLED WITH
-   1.10.6
